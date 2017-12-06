@@ -1,3 +1,4 @@
+
 {
     "instances": [
         {
@@ -41,7 +42,7 @@
                     "PBSC Urban Solutions"
                 ]
             },
-            "feed_url": "https://gbfs.bikesharetoronto.com/gbfs/gbfs.json"
+            "feed_url": "https://tor.publicbikesystem.net/ube/gbfs/v1/"
         },
         {
             "tag": "sobi-hamilton",
@@ -98,6 +99,21 @@
                 "company": ["BCycle, LLC"]
             },
             "feed_url": "https://gbfs.bcycle.com/bcycle_austin/gbfs.json"
+        },
+        {
+            "tag": "bike-chattanooga",
+            "meta": {
+                "longitude": -85.3096801,
+                "latitude": 35.0456297,
+                "city": "Chattanooga, TN",
+                "name": "Bike Chattanooga",
+                "country": "US",
+                "company": [
+                    "Motivate International, Inc",
+                    "PBSC"
+                ]
+            },
+            "feed_url": "https://gbfs.bikechattanooga.com/gbfs/gbfs.json"
         },
         {
             "tag": "biketown",
@@ -189,7 +205,7 @@
             "meta": {
                 "latitude": 43.0369,
                 "longitude": -87.89667,
-                "city": "Milkwaukee, WI",
+                "city": "Milwaukee, WI",
                 "name": "Bublr Bikes",
                 "country": "US",
                 "company": ["BCycle, LLC"]
@@ -469,7 +485,7 @@
                     "Social Bicycles Inc."
                 ]
             },
-            "feed_url": "https://orlando.socialbicycles.com/opendata/gbfs.json"
+            "feed_url": "https://juicebikeshare.com/opendata/gbfs.json"
         },
         {
             "tag": "kansascity",
@@ -554,22 +570,6 @@
             "feed_url": "https://api-core.niceridemn.org/gbfs/gbfs.json"
         },
         {
-            "tag": "pronto-cycle-share",
-            "meta": {
-                "latitude": 47.606209,
-                "longitude": -122.332071,
-                "city": "Seattle, WA",
-                "name": "Pronto Cycle Share",
-                "country": "US",
-                "company": [
-                    "Pronto!",
-                    "City of Seattle",
-                    "Motivate International, Inc."
-                ]
-            },
-            "feed_url": "https://gbfs.prontocycleshare.com/gbfs/gbfs.json"
-        },
-        {
             "tag": "sanantonio",
             "meta": {
                 "latitude": 29.43701,
@@ -651,19 +651,33 @@
             "feed_url": "http://ubike.virginia.edu/opendata/gbfs.json"
         },
         {
-            "tag": "bay-area-bike-share",
+            "tag": "ford-gobike",
             "meta": {
                 "latitude": 37.7141454,
                 "longitude": -122.25,
                 "city": "San Francisco Bay Area, CA",
-                "name": "Bay Area Bike Share",
+                "name": "Ford GoBike",
                 "country": "US",
                 "company": [
-                    "PBSC",
-                    "Alta Bicycle Share, Inc"
+                    "Motivate International, Inc."
                 ]
             },
-            "feed_url": "https://gbfs.bayareabikeshare.com/gbfs/gbfs.json"
+            "feed_url": "https://gbfs.fordgobike.com/gbfs/gbfs.json"
+        },
+        {
+            "tag": "relay-atlanta",
+            "meta": {
+                "latitude": 33.7627941119619,
+                "longitude": -84.38727110624313,
+                "city": "Atlanta, GA",
+                "name": "Relay Bike Share",
+                "country": "US",
+                "company": [
+                    "CycleHop, LLC",
+                    "Social Bicycles Inc"
+                ]
+            },
+            "feed_url": "https://relaybikeshare.socialbicycles.com/opendata/gbfs.json"
         }
     ],
     "system": "gbfs",
